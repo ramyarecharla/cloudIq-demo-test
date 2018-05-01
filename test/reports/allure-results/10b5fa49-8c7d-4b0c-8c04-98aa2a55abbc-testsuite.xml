@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1525127032486' stop='1525127034877'>
+    <name>Requesting a demo from cloud iq Validate Email address on demo page</name>
+    <title>Requesting a demo from cloud iq Validate Email address on demo page</title>
+    <test-cases>
+        <test-case start='1525127032490' status='passed' stop='1525127034566'>
+            <name>I am on the demo page</name>
+            <title>I am on the demo page</title>
+            <labels>
+                <label name='feature' value='Requesting a demo from cloud iq'/>
+                <label name='story' value='Validate Email address on demo page'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/venkatakirankumarvishnumolakala/PhpstormProjects/cloudIQ-Request-A-Demo/test/features/request-a-demo.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1525127032490' status='passed' stop='1525127033535'>
+                    <name>POST /wd/hub/session/7b2e6c48dd340e9cfff572b8261d1a4f/url</name>
+                    <title>POST /wd/hub/session/7b2e6c48dd340e9cfff572b8261d1a4f/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ec298193-0710-4ec1-a6b9-5ac537abfaae-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='8ef41c64-f522-4e0e-9041-135a882d957f-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1525127034546' status='passed' stop='1525127034563'>
+                    <name>GET /wd/hub/session/7b2e6c48dd340e9cfff572b8261d1a4f/title</name>
+                    <title>GET /wd/hub/session/7b2e6c48dd340e9cfff572b8261d1a4f/title</title>
+                    <attachments>
+                        <attachment title='Response' source='3d27f975-ab1b-4966-a626-5cc136cc3e61-attachment.json' type='application/json' size='149'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1525127034572' status='broken' stop='1525127034857'>
+            <name>I fill the demo form with the following details</name>
+            <title>I fill the demo form with the following details</title>
+            <labels>
+                <label name='feature' value='Requesting a demo from cloud iq'/>
+                <label name='story' value='Validate Email address on demo page'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/venkatakirankumarvishnumolakala/PhpstormProjects/cloudIQ-Request-A-Demo/test/features/request-a-demo.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1525127034572' status='passed' stop='1525127034596'>
+                    <name>POST /wd/hub/session/7b2e6c48dd340e9cfff572b8261d1a4f/element</name>
+                    <title>POST /wd/hub/session/7b2e6c48dd340e9cfff572b8261d1a4f/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5b785fd1-eb52-4d76-80df-1894ebb652f7-attachment.json' type='application/json' size='73'/>
+                        <attachment title='Response' source='5a6de479-3177-4577-93ac-3bc4f258358e-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1525127034614' status='passed' stop='1525127034825'>
+                    <name>POST /wd/hub/session/7b2e6c48dd340e9cfff572b8261d1a4f/element/0.9176966345967184-1/clear</name>
+                    <title>POST /wd/hub/session/7b2e6c48dd340e9cfff572b8261d1a4f/element/0.9176966345967184-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='a2fdf0c0-a8d0-40c5-8637-126545081fd2-attachment.json' type='application/json' size='509'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1525127034833' status='passed' stop='1525127034844'>
+                    <name>GET /wd/hub/session/7b2e6c48dd340e9cfff572b8261d1a4f/screenshot</name>
+                    <title>GET /wd/hub/session/7b2e6c48dd340e9cfff572b8261d1a4f/screenshot</title>
+                    <attachments>
+                        <attachment title='Response' source='f02c8ea8-cae5-4381-a60e-78da6f8c528e-attachment.json' type='application/json' size='509'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed</message>
+                <stack-trace>Error: A request to switch to a different window could not be satisfied because the window could not be found.
+                    at elementIdValue("0.9176966345967184-1", "John") - setValue.js:46:80</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1525127034869' status='pending' stop='1525127034870'>
+            <name>I click Go</name>
+            <title>I click Go</title>
+            <labels>
+                <label name='feature' value='Requesting a demo from cloud iq'/>
+                <label name='story' value='Validate Email address on demo page'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/venkatakirankumarvishnumolakala/PhpstormProjects/cloudIQ-Request-A-Demo/test/features/request-a-demo.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1525127034870' status='pending' stop='1525127034870'>
+            <name>I verify if the email address given while requesting demo page is "True"</name>
+            <title>I verify if the email address given while requesting demo page is "True"</title>
+            <labels>
+                <label name='feature' value='Requesting a demo from cloud iq'/>
+                <label name='story' value='Validate Email address on demo page'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/venkatakirankumarvishnumolakala/PhpstormProjects/cloudIQ-Request-A-Demo/test/features/request-a-demo.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,157 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1525045546801' stop='1525045549986'>
+    <name>Performing a Yahoo Search Performing a search operation</name>
+    <title>Performing a Yahoo Search Performing a search operation</title>
+    <test-cases>
+        <test-case start='1525045546806' status='passed' stop='1525045549107'>
+            <name>I am on the search page</name>
+            <title>I am on the search page</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/venkatakirankumarvishnumolakala/PhpstormProjects/cloudIQ-Request-A-Demo/test/features/request-a-demo.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1525045546815' status='passed' stop='1525045548069'>
+                    <name>POST /wd/hub/session/ee9e8134458aa9c270ac09fb0aac57bf/url</name>
+                    <title>POST /wd/hub/session/ee9e8134458aa9c270ac09fb0aac57bf/url</title>
+                    <attachments>
+                        <attachment title='Request' source='66fde8f3-984e-4084-9f73-68882692ac50-attachment.json' type='application/json' size='42'/>
+                        <attachment title='Response' source='f1b6c352-551f-4bd9-ae67-2ab58c35dd78-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1525045549084' status='passed' stop='1525045549100'>
+                    <name>GET /wd/hub/session/ee9e8134458aa9c270ac09fb0aac57bf/title</name>
+                    <title>GET /wd/hub/session/ee9e8134458aa9c270ac09fb0aac57bf/title</title>
+                    <attachments>
+                        <attachment title='Response' source='7f5a55be-4d8d-4649-be96-9ee9b5451941-attachment.json' type='application/json' size='114'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1525045549109' status='broken' stop='1525045549971'>
+            <name>I enter "Selenium Webdriver" into the search box</name>
+            <title>I enter "Selenium Webdriver" into the search box</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/venkatakirankumarvishnumolakala/PhpstormProjects/cloudIQ-Request-A-Demo/test/features/request-a-demo.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1525045549113' status='passed' stop='1525045549147'>
+                    <name>POST /wd/hub/session/ee9e8134458aa9c270ac09fb0aac57bf/element</name>
+                    <title>POST /wd/hub/session/ee9e8134458aa9c270ac09fb0aac57bf/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ee90bc9d-127b-4a94-84fc-a6596dd66dbf-attachment.json' type='application/json' size='44'/>
+                        <attachment title='Response' source='84559839-6817-438b-a3f3-ff368f18b89e-attachment.json' type='application/json' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1525045549153' status='passed' stop='1525045549192'>
+                    <name>POST /wd/hub/session/ee9e8134458aa9c270ac09fb0aac57bf/element/0.602468343299071-1/clear</name>
+                    <title>POST /wd/hub/session/ee9e8134458aa9c270ac09fb0aac57bf/element/0.602468343299071-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='abc3c296-e4df-421a-91b3-6b00184b06f7-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1525045549198' status='passed' stop='1525045549221'>
+                    <name>POST /wd/hub/session/ee9e8134458aa9c270ac09fb0aac57bf/element</name>
+                    <title>POST /wd/hub/session/ee9e8134458aa9c270ac09fb0aac57bf/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f49b2016-d467-4eac-a240-079ef91ad2e2-attachment.json' type='application/json' size='44'/>
+                        <attachment title='Response' source='a6796939-a0a4-4011-91d1-371ac92af6ac-attachment.json' type='application/json' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1525045549230' status='passed' stop='1525045549248'>
+                    <name>POST /wd/hub/session/ee9e8134458aa9c270ac09fb0aac57bf/element/0.602468343299071-1/clear</name>
+                    <title>POST /wd/hub/session/ee9e8134458aa9c270ac09fb0aac57bf/element/0.602468343299071-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='3716f587-0c4b-4536-b0c2-13c8233582ff-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1525045549249' status='broken' stop='1525045549971'>
+                    <name>POST /wd/hub/session/ee9e8134458aa9c270ac09fb0aac57bf/element/0.602468343299071-1/value</name>
+                    <title>POST /wd/hub/session/ee9e8134458aa9c270ac09fb0aac57bf/element/0.602468343299071-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='ebe90071-f0d2-438a-8c74-72c78fe18052-attachment.json' type='application/json' size='291'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such session
+                  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64)</message>
+                <stack-trace>Error: no such session
+                    (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64)
+                    at new RuntimeError (node_modules/webdriverio/build/lib/utils/ErrorHandler.js:144:12)
+                    at Request._callback (node_modules/webdriverio/build/lib/utils/RequestHandler.js:316:39)
+                    at Request.self.callback (node_modules/webdriverio/node_modules/request/request.js:186:22)
+                    at emitTwo (events.js:126:13)
+                    at Request.emit (events.js:214:7)
+                    at Request.&lt;anonymous> (node_modules/webdriverio/node_modules/request/request.js:1163:10)
+                    at emitOne (events.js:116:13)
+                    at Request.emit (events.js:211:7)
+                    at IncomingMessage.&lt;anonymous> (node_modules/webdriverio/node_modules/request/request.js:1085:12)
+                    at Object.onceWrapper (events.js:313:30)
+                    at emitNone (events.js:111:20)
+                    at IncomingMessage.emit (events.js:208:7)
+                    at endReadableNT (_stream_readable.js:1064:12)
+                    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+                    at process._tickDomainCallback (internal/process/next_tick.js:218:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1525045549974' status='pending' stop='1525045549976'>
+            <name>I click the search button</name>
+            <title>I click the search button</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/venkatakirankumarvishnumolakala/PhpstormProjects/cloudIQ-Request-A-Demo/test/features/request-a-demo.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1525045549979' status='pending' stop='1525045549981'>
+            <name>I should see a list of search results</name>
+            <title>I should see a list of search results</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/venkatakirankumarvishnumolakala/PhpstormProjects/cloudIQ-Request-A-Demo/test/features/request-a-demo.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

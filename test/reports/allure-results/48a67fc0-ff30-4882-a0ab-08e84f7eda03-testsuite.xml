@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1525046991416' stop='1525046994835'>
+    <name>requesting a demo from cloud iq Requesting a demo</name>
+    <title>requesting a demo from cloud iq Requesting a demo</title>
+    <test-cases>
+        <test-case start='1525046991422' status='passed' stop='1525046994832'>
+            <name>I am on the home page</name>
+            <title>I am on the home page</title>
+            <labels>
+                <label name='feature' value='requesting a demo from cloud iq'/>
+                <label name='story' value='Requesting a demo'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/venkatakirankumarvishnumolakala/PhpstormProjects/cloudIQ-Request-A-Demo/test/features/request-a-demo.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1525046991433' status='passed' stop='1525046993814'>
+                    <name>POST /wd/hub/session/3a58cbae9af2ccb06c80f67228dddbda/url</name>
+                    <title>POST /wd/hub/session/3a58cbae9af2ccb06c80f67228dddbda/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a5eee180-3bc3-49ab-97fc-e18ab5914e5d-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='4d13cb97-3fea-4cd9-bf31-cd29fec1dcbc-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,9 @@
+{
+    "message": "no such window: target window already closed\nfrom unknown error: web view not found",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "type": "NoSuchWindow",
+        "message": "A request to switch to a different window could not be satisfied because the window could not be found.",
+        "orgStatusMessage": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=66.0.3359.139)\n  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64)"
+    }
+}

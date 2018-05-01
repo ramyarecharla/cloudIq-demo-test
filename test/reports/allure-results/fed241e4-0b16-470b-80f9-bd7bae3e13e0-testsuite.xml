@@ -1,0 +1,185 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1525045262844' stop='1525045267020'>
+    <name>Performing a Yahoo Search Performing a search operation with passing test data as data table</name>
+    <title>Performing a Yahoo Search Performing a search operation with passing test data as data table</title>
+    <test-cases>
+        <test-case start='1525045262844' status='passed' stop='1525045264599'>
+            <name>I am on the search page</name>
+            <title>I am on the search page</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/venkatakirankumarvishnumolakala/PhpstormProjects/cloudIQ-Request-A-Demo/test/features/yahoo-search.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1525045262844' status='passed' stop='1525045263578'>
+                    <name>POST /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/url</name>
+                    <title>POST /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b757e4f6-0ffe-46f4-8b00-9f635407a310-attachment.json' type='application/json' size='42'/>
+                        <attachment title='Response' source='733d2b5d-a2b8-4011-83b4-4f3da93dbf28-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1525045264582' status='passed' stop='1525045264594'>
+                    <name>GET /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/title</name>
+                    <title>GET /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/title</title>
+                    <attachments>
+                        <attachment title='Response' source='e6abc13c-5eee-4a8e-9ca2-8b0d5619bf3c-attachment.json' type='application/json' size='114'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1525045264602' status='passed' stop='1525045265372'>
+            <name>I enter "Selenium Webdriver" into the search box</name>
+            <title>I enter "Selenium Webdriver" into the search box</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/venkatakirankumarvishnumolakala/PhpstormProjects/cloudIQ-Request-A-Demo/test/features/yahoo-search.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1525045264604' status='passed' stop='1525045264620'>
+                    <name>POST /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/element</name>
+                    <title>POST /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/element</title>
+                    <attachments>
+                        <attachment title='Request' source='bae268a0-2d31-49ff-9d08-e9454a91c0e1-attachment.json' type='application/json' size='44'/>
+                        <attachment title='Response' source='1e8a8c00-d1ff-4b2a-9aaf-4e16ee3a6aa6-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1525045264626' status='passed' stop='1525045264660'>
+                    <name>POST /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/element/0.27816704188573094-1/clear</name>
+                    <title>POST /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/element/0.27816704188573094-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='45fcc2a4-730f-48a0-a6cd-88fdabb16f23-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1525045264664' status='passed' stop='1525045264680'>
+                    <name>POST /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/element</name>
+                    <title>POST /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/element</title>
+                    <attachments>
+                        <attachment title='Request' source='83157be3-82d0-4215-bb0c-5d2fbdf4d922-attachment.json' type='application/json' size='44'/>
+                        <attachment title='Response' source='c6f673a9-ea49-4a63-bbe0-eba7da0a5b03-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1525045264685' status='passed' stop='1525045264704'>
+                    <name>POST /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/element/0.27816704188573094-1/clear</name>
+                    <title>POST /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/element/0.27816704188573094-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='4cb96ccf-71a9-43b6-81b7-41855b43b1d3-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1525045264704' status='passed' stop='1525045265263'>
+                    <name>POST /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/element/0.27816704188573094-1/value</name>
+                    <title>POST /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/element/0.27816704188573094-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='2155d8c3-c853-49bc-9136-798a825ad798-attachment.json' type='application/json' size='291'/>
+                        <attachment title='Response' source='69c5f46b-75dc-43b4-bf6f-5ae8966e215e-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1525045265265' status='passed' stop='1525045265313'>
+                    <name>POST /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/element</name>
+                    <title>POST /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8667b560-fd16-4a39-99d3-a926dd6e5373-attachment.json' type='application/json' size='44'/>
+                        <attachment title='Response' source='45ba4245-445b-45d9-8535-0bff2767d4c4-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1525045265320' status='passed' stop='1525045265331'>
+                    <name>GET /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/element/0.27816704188573094-1/property/value</name>
+                    <title>GET /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/element/0.27816704188573094-1/property/value</title>
+                    <attachments>
+                        <attachment title='Response' source='9b941cc7-ebd4-48c6-8171-248cf818994c-attachment.json' type='application/json' size='151'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1525045265333' status='passed' stop='1525045265368'>
+                    <name>GET /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/element/0.27816704188573094-1/attribute/value</name>
+                    <title>GET /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/element/0.27816704188573094-1/attribute/value</title>
+                    <attachments>
+                        <attachment title='Response' source='a500504d-4c4d-4fa1-8e8e-3472ce698e2f-attachment.json' type='application/json' size='107'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1525045265376' status='broken' stop='1525045267020'>
+            <name>I click the search button</name>
+            <title>I click the search button</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/venkatakirankumarvishnumolakala/PhpstormProjects/cloudIQ-Request-A-Demo/test/features/yahoo-search.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1525045265377' status='passed' stop='1525045265400'>
+                    <name>POST /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/element</name>
+                    <title>POST /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/element</title>
+                    <attachments>
+                        <attachment title='Request' source='28b421af-2457-470b-a9c2-648807513d88-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='316fe054-c81f-44be-9321-b55bf5511ed5-attachment.json' type='application/json' size='623'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1525045265405' status='broken' stop='1525045267020'>
+                    <name>GET /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/screenshot</name>
+                    <title>GET /wd/hub/session/8efc78f6eaa76c37e2cabf1cbc68925c/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='66275e61-fc5c-46e4-a450-fd2beb2fdb8d-attachment.png' type='image/png' size='1265660'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("//div[@class="mag-glass"]").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("//div[@class="mag-glass"]").
+                    at click() - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1525045267020' status='pending' stop='1525045267020'>
+            <name>I should see a list of search results</name>
+            <title>I should see a list of search results</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/venkatakirankumarvishnumolakala/PhpstormProjects/cloudIQ-Request-A-Demo/test/features/yahoo-search.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

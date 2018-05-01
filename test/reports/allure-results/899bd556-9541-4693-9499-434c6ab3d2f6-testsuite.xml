@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1525045550036' stop='1525045550048'>
+    <name>Performing a Yahoo Search Performing a search operation with passing test data as data table</name>
+    <title>Performing a Yahoo Search Performing a search operation with passing test data as data table</title>
+    <test-cases>
+        <test-case start='1525045550036' status='broken' stop='1525045550036'>
+            <name>I am on the search page</name>
+            <title>I am on the search page</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/venkatakirankumarvishnumolakala/PhpstormProjects/cloudIQ-Request-A-Demo/test/features/request-a-demo.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>A session id is required for this command but wasn't found in the response payload</message>
+                <stack-trace>Error: A session id is required for this command but wasn't found in the response payload
+                    at new RuntimeError (node_modules/webdriverio/build/lib/utils/ErrorHandler.js:144:12)
+                    at RequestHandler.createOptions (node_modules/webdriverio/build/lib/utils/RequestHandler.js:121:23)
+                    at RequestHandler.create (node_modules/webdriverio/build/lib/utils/RequestHandler.js:212:43)
+                    at Object.url (node_modules/webdriverio/build/lib/protocol/url.js:24:32)
+                    at Object.exec (node_modules/webdriverio/build/lib/helpers/safeExecute.js:28:24)
+                    at Object.resolve (node_modules/webdriverio/build/lib/webdriverio.js:191:29)
+                    at lastPromise.then.resolve.call.depth (node_modules/webdriverio/build/lib/webdriverio.js:486:32)
+                    at _fulfilled (node_modules/q/q.js:854:54)
+                    at self.promiseDispatch.done (node_modules/q/q.js:883:30)
+                    at Promise.promise.promiseDispatch (node_modules/q/q.js:816:13)
+                    at node_modules/q/q.js:570:49
+                    at runSingle (node_modules/q/q.js:137:13)
+                    at flush (node_modules/q/q.js:125:13)
+                    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+                    at process._tickDomainCallback (internal/process/next_tick.js:218:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1525045550036' status='pending' stop='1525045550036'>
+            <name>I enter "Selenium Webdriver" into the search box</name>
+            <title>I enter "Selenium Webdriver" into the search box</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/venkatakirankumarvishnumolakala/PhpstormProjects/cloudIQ-Request-A-Demo/test/features/request-a-demo.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1525045550036' status='pending' stop='1525045550037'>
+            <name>I click the search button</name>
+            <title>I click the search button</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/venkatakirankumarvishnumolakala/PhpstormProjects/cloudIQ-Request-A-Demo/test/features/request-a-demo.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1525045550043' status='pending' stop='1525045550043'>
+            <name>I should see a list of search results</name>
+            <title>I should see a list of search results</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/venkatakirankumarvishnumolakala/PhpstormProjects/cloudIQ-Request-A-Demo/test/features/request-a-demo.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

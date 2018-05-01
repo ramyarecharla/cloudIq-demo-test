@@ -1,0 +1,47 @@
+{
+  "name": "CloudIqDemoTest",
+  "version": "1.1.5",
+  "description": "Functional Test for CloudIq Demo Test",
+  "main": "index.js",
+  "scripts": {
+    "selenium-postinstall": "node node_modules/.bin/selenium-standalone install",
+    "selenium-start": "node_modules/.bin/selenium-standalone start",
+    "test": "node node_modules/webdriverio/bin/wdio ./test/config/wdio.conf.js",
+    "junit-report": "node_modules/.bin/junit-viewer --results=./test/reports/junit-results --save=junit-results.html && open junit-results.html"
+  },
+  "author": "Ramya Recharla",
+  "dependencies": {
+    "allure-commandline": "^2.5.0",
+    "assert": "^1.4.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "cucumber": "^3.0.0",
+    "junit-viewer": "^4.11.1",
+    "utilities": "^1.0.5",
+    "wdio-allure-reporter": "^0.6.0",
+    "wdio-dot-reporter": "0.0.5",
+    "wdio-json-reporter": "^0.1.1",
+    "wdio-junit-reporter": "0.0.2",
+    "wdio-spec-reporter": "^0.1.2",
+    "webdriverio": "^4.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "selenium-standalone": "^6.8.0",
+    "wdio-cucumber-framework": "^1.0.2",
+    "wdio-selenium-standalone-service": "0.0.4"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  }
+}
